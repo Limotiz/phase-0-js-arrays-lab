@@ -24,7 +24,7 @@ function updateProductName(index, newName) {
 }
 
 // adding remove function
-function removeLastProduct(products) {
+function removeLastProduct() {
   products.pop()
 }
 
