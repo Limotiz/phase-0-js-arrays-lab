@@ -8,9 +8,13 @@ const products =[
   "Monitor" ]
 
 function logFirstProduct(products) {
-  
-  console.log(products[0])
+  if (products.length > 0) {
+    console.log(products[0]);
+  } else {
+    console.log("No products available");
+  }
 }
+
 
 logFirstProduct(products);
 
